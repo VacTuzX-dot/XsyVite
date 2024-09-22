@@ -1,20 +1,21 @@
-import { Link, Route, Routes } from "react-router-dom"; // Import Routes and Route
+import { Link, Route, Routes } from "react-router-dom";
 import "../style/index.css";
-import About from "./about"; // Import About page component
+import About from "./about";
+import { Button, Navbar } from "flowbite-react";
 
 function App() {
   return (
     <>
       {/* Add navigation links */}
-      <nav className="rounded-2xl bg-slate-800 py-4 text-xl">
+      <Navbar className="rounded-2xl bg-slate-800 py-4 text-xl">
         <Link to="/">
-          <button>Home</button>
+          <Button>Home</Button>
         </Link>{" "}
         |{" "}
         <Link to="/about">
-          <button>About</button>
+          <Button>About</Button>
         </Link>
-      </nav>
+      </Navbar>
 
       {/* Define routes for different pages */}
       <Routes>
