@@ -1,4 +1,4 @@
-// import { Link, Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import "../style/index.css";
 import About from "./about";
 import { Button, Navbar, NavbarLink, NavbarCollapse } from "flowbite-react";
@@ -16,10 +16,10 @@ function App() {
           <Button>About</Button>
         </Link> */}
         <NavbarCollapse>
-        <NavbarLink href="#" active>
+        <NavbarLink href="/" active>
           Home
         </NavbarLink>
-        <NavbarLink href="#">
+        <NavbarLink href="/about">
           About
         </NavbarLink>
         <NavbarLink href="#">Services</NavbarLink>
@@ -29,10 +29,10 @@ function App() {
       </Navbar>
 
       {/* Define routes for different pages */}
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-      </Routes> */}
+      </Routes>
     </>
   );
 }
