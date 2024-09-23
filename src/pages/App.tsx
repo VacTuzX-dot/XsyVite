@@ -1,37 +1,46 @@
-import { Link, Route, Routes } from "react-router-dom";
+// Import CSS
 import "../style/index.css";
+// Import other page
 import About from "./about";
-import { Button, Navbar, NavbarLink, NavbarCollapse } from "flowbite-react";
+import About_Leo from "./about_leo";
+import About_Nice from "./about_nice";
+// Import other things that request
+import { Route, Routes } from "react-router-dom";
+import {
+  Navbar,
+  NavbarLink,
+  NavbarCollapse,
+  NavbarToggle,
+  NavbarBrand,
+} from "flowbite-react";
 
 function App() {
   return (
     <>
       {/* Add navigation links */}
-      <Navbar fluid rounded>
-        {/* <Link to="/">
-          <Button>Home</Button>
-        </Link>{" "}
-        |{" "}
-        <Link to="/about">
-          <Button>About</Button>
-        </Link> */}
+      <Navbar fluid rounded className="bg-slate-700">
+        <NavbarBrand>
+          <span className="self-center whitespace-nowrap text-xl font-bold">
+            Xsylab
+          </span>
+        </NavbarBrand>
+        <NavbarToggle />
         <NavbarCollapse>
-        <NavbarLink href="/" active>
-          Home
-        </NavbarLink>
-        <NavbarLink href="/about">
-          About
-        </NavbarLink>
-        <NavbarLink href="#">Services</NavbarLink>
-        <NavbarLink href="#">Pricing</NavbarLink>
-        <NavbarLink href="#">Contact</NavbarLink>
-      </NavbarCollapse>
+          <NavbarLink href="/" active>
+            Home
+          </NavbarLink>
+          <NavbarLink href="/about" active>
+            About
+          </NavbarLink>
+        </NavbarCollapse>
       </Navbar>
 
       {/* Define routes for different pages */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/about_leo" element={<About_Leo />} />
+        <Route path="/about_nice" element={<About_Nice />} />
       </Routes>
     </>
   );

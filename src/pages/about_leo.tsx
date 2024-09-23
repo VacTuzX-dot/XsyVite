@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/index.css";
 
-const About: React.FC = () => {
+const About_Leo: React.FC = () => {
   return (
     <>
       <div className="about-page">
@@ -36,4 +36,4 @@ const About: React.FC = () => {
   );
 };
 
-export default About;
+export default About_Leo;
