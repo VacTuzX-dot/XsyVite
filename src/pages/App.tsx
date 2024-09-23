@@ -40,8 +40,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/about_leo" element={<About_Leo />} />
-        <Route path="/about_nice" element={<About_Nice />} />
+        <Route path="/about/leo" element={<About_Leo />} />
+        <Route path="/about/nice" element={<About_Nice />} />
       </Routes>
     </>
   );
@@ -49,7 +49,11 @@ function App() {
 
 // Home component for demonstration (can be placed in a separate file if needed)
 const Home: React.FC = () => {
-  return <h2>Welcome to the Home Page</h2>;
+  return (
+    <>
+      <h2>Welcome to the Home Page</h2>
+    </>
+  );
 };
 
 export default App;

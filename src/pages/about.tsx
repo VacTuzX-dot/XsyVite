@@ -9,8 +9,8 @@ const About: React.FC = () => {
     <>
       <div>
         <h1>About Us</h1>
-        <Button href="/about_leo">Leo</Button>
-        <Button href="/about_nice">Nice</Button>
+        <Button href="/about/leo">Leo</Button>
+        <Button href="/about/nice">Nice</Button>
       </div>
     </>
   );
