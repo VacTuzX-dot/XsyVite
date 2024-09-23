@@ -1,37 +1,26 @@
-import React from "react";
+// Import CSS
 import "../style/index.css";
+// Import other page
+import About_Leo from "./about_leo";
+import About_Nice from "./about_nice";
+// Import other things that require
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import { Button } from "flowbite-react";
 
 const About: React.FC = () => {
   return (
     <>
-      <div className="about-page">
+      <div>
         <h1>About Us</h1>
-        <p>
-          Welcome to our website! We are passionate about providing great
-          services and content.
-        </p>
-        <section className="mission-section">
-          <h2>Our Mission</h2>
-          <p>
-            Our mission is to deliver high-quality products and services that
-            bring value to our customers.
-          </p>
-        </section>
-        <section className="team-section">
-          <h2>Meet the Team</h2>
-          <p>
-            Our team consists of dedicated professionals who strive for
-            excellence in everything they do.
-          </p>
-        </section>
-        <section className="contact-section">
-          <h2>Contact Us</h2>
-          <p>
-            If you have any questions, feel free to reach out at{" "}
-            <a href="mailto:contact@example.com">contact@example.com</a>.
-          </p>
-        </section>
+        <Button href="/about_leo">Leo</Button>
+        <Button href="/about_nice">Nice</Button>
       </div>
+      {/* Define routes for different pages */}
+      <Routes>
+        <Route path="/about_leo" element={<About_Leo />} />
+        <Route path="/about_nice" element={<About_Nice />} />
+      </Routes>
     </>
   );
 };

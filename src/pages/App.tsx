@@ -4,7 +4,7 @@ import "../style/index.css";
 import About from "./about";
 import About_Leo from "./about_leo";
 import About_Nice from "./about_nice";
-// Import other things that request
+// Import other things that require
 import { Route, Routes } from "react-router-dom";
 import {
   Navbar,
