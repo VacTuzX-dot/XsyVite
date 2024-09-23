@@ -6,7 +6,7 @@ import About_Leo from "./about_leo";
 import About_Nice from "./about_nice";
 // Import other things that require
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import {
   Navbar,
   NavbarLink,
@@ -27,12 +27,12 @@ function App() {
         </NavbarBrand>
         <NavbarToggle />
         <NavbarCollapse>
-          <NavbarLink href="/" active>
+          <Link to="/">
             Home
-          </NavbarLink>
-          <NavbarLink href="/about" active>
+          </Link>
+          <Link to="/about">
             About
-          </NavbarLink>
+          </Link>
         </NavbarCollapse>
       </Navbar>
 
