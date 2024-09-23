@@ -5,6 +5,7 @@ import About from "./about";
 import About_Leo from "./about_leo";
 import About_Nice from "./about_nice";
 // Import other things that require
+import React from "react";
 import { Route, Routes } from "react-router-dom";
 import {
   Navbar,
