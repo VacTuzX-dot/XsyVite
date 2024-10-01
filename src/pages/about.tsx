@@ -11,7 +11,7 @@ import { Link, Route, Routes } from "react-router-dom";
 const About: React.FC = () => {
   return (
     <>
-      <div>
+      <div className="min-h-screen">
         <h1>About Us</h1>
         <Link to="/about/leo">
           <Button>Leo</Button>
