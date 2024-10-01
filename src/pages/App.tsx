@@ -18,18 +18,18 @@ function App() {
   return (
     <>
       {/* Add navigation links */}
-      <Navbar fluid rounded className="bg-slate-700">
+      <Navbar fluid rounded className="bg-slate-400 bg-opacity-15">
         <NavbarBrand>
-          <span className="self-center whitespace-nowrap text-xl font-bold">
+          <span className="self-center whitespace-nowrap text-xl font-bold drop-shadow-md">
             Xsylab
           </span>
         </NavbarBrand>
         <NavbarToggle />
         <NavbarCollapse>
-          <Link to="/">
+          <Link to="/" className="text-base text-blue-400 drop-shadow-md">
             Home
           </Link>
-          <Link to="/about">
+          <Link to="/about" className="text-base text-blue-400 drop-shadow-lg">
             About
           </Link>
         </NavbarCollapse>
@@ -50,7 +50,9 @@ function App() {
 const Home: React.FC = () => {
   return (
     <>
-      <h2>Welcome to the Home Page</h2>
+      <div className="min-h-screen">
+        <h2>Welcome to the Home Page</h2>
+      </div>
     </>
   );
 };
