@@ -6,7 +6,7 @@ import React from "react";
 const About_Nice: React.FC = () => {
   return (
     <>
-      <div>
+      <div className="min-h-screen">
         <h1>Nice</h1>
       </div>
     </>
