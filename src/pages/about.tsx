@@ -1,17 +1,30 @@
 // Import CSS
 import "../style/index.css";
-// Import other page
+// Import other pages
 import About_Leo from "./about_leo";
 import About_Nice from "./about_nice";
 // Import other things that require
 import React from "react";
-import { Button } from "flowbite-react";
+import { Button, Breadcrumb, BreadcrumbItem } from "flowbite-react";
 import { Link, Route, Routes } from "react-router-dom";
 
 const About: React.FC = () => {
   return (
     <>
       <div className="min-h-screen">
+        <Breadcrumb aria-label="Default breadcrumb">
+          <BreadcrumbItem className="ml-2">
+            <Link
+              to="/"
+              className="text-slate-400 transition-colors hover:text-white hover:transition-colors"
+            >
+              Home
+            </Link>
+          </BreadcrumbItem>
+          <BreadcrumbItem>
+            <span className="text-slate-400">About</span>
+          </BreadcrumbItem>
+        </Breadcrumb>
         <h1>About Us</h1>
         <Link to="/about/leo">
           <Button>Leo</Button>
