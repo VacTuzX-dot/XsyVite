@@ -59,11 +59,12 @@ const Home: React.FC = () => {
   return (
     <>
       <div className="min-h-screen">
-        <Breadcrumb aria-label="Default breadcrumb">
-          <BreadcrumbItem className="ml-2">
-            <span className="text-slate-400">
-              Home
-            </span>
+        <Breadcrumb
+          aria-label="Default breadcrumb"
+          className="m-2 rounded-3xl bg-slate-600 px-3 py-2"
+        >
+          <BreadcrumbItem className="ml-1">
+            <span className="text-slate-300">Home</span>
           </BreadcrumbItem>
         </Breadcrumb>
         <h2>Welcome to the Home Page</h2>

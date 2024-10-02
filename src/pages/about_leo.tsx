@@ -11,8 +11,11 @@ const About_Leo: React.FC = () => {
   return (
     <>
       <div className="min-h-screen">
-        <Breadcrumb aria-label="Default breadcrumb">
-          <BreadcrumbItem className="ml-2">
+        <Breadcrumb
+          aria-label="Default breadcrumb"
+          className="m-2 rounded-3xl bg-slate-600 px-3 py-2"
+        >
+          <BreadcrumbItem className="ml-1">
             <Link
               to="/"
               className="text-slate-400 transition-colors hover:text-white hover:transition-colors"
@@ -29,7 +32,7 @@ const About_Leo: React.FC = () => {
             </Link>
           </BreadcrumbItem>
           <BreadcrumbItem>
-            <span className="text-slate-400">Leo</span>
+            <span className="text-slate-300">Leo</span>
           </BreadcrumbItem>
         </Breadcrumb>
         <h1>Leo</h1>
