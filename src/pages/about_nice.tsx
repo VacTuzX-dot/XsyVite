@@ -11,8 +11,11 @@ const About_Nice: React.FC = () => {
   return (
     <>
       <div className="min-h-screen">
-        <Breadcrumb aria-label="Default breadcrumb">
-          <BreadcrumbItem className="ml-2">
+        <Breadcrumb
+          aria-label="Default breadcrumb"
+          className="m-2 rounded-3xl bg-slate-600 px-3 py-2"
+        >
+          <BreadcrumbItem className="ml-1">
             <Link
               to="/"
               className="text-slate-400 transition-colors hover:text-white hover:transition-colors"
