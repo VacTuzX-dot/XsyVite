@@ -24,12 +24,18 @@ function App() {
             Xsylab
           </span>
         </NavbarBrand>
-        <NavbarToggle />
+        <NavbarToggle className="text-blue-400" />
         <NavbarCollapse>
-          <Link to="/" className="text-base text-blue-400 drop-shadow-md">
+          <Link
+            to="/"
+            className="text-base text-blue-400 drop-shadow-md transition-colors hover:text-blue-200 hover:transition-colors"
+          >
             Home
           </Link>
-          <Link to="/about" className="text-base text-blue-400 drop-shadow-lg">
+          <Link
+            to="/about"
+            className="text-base text-blue-400 drop-shadow-lg transition-colors hover:text-blue-200 hover:transition-colors"
+          >
             About
           </Link>
         </NavbarCollapse>
