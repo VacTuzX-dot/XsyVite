@@ -29,7 +29,7 @@ const About_Nice: React.FC = () => {
             </Link>
           </BreadcrumbItem>
           <BreadcrumbItem>
-            <span className="text-slate-400">Nice</span>
+            <span className="text-slate-300">Nice</span>
           </BreadcrumbItem>
         </Breadcrumb>
         <h1>Nice</h1>

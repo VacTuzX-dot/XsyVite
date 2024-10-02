@@ -22,7 +22,7 @@ const About: React.FC = () => {
             </Link>
           </BreadcrumbItem>
           <BreadcrumbItem>
-            <span className="text-slate-400">About</span>
+            <span className="text-slate-300">About</span>
           </BreadcrumbItem>
         </Breadcrumb>
         <h1>About Us</h1>

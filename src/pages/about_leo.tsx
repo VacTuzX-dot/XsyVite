@@ -29,7 +29,7 @@ const About_Leo: React.FC = () => {
             </Link>
           </BreadcrumbItem>
           <BreadcrumbItem>
-            <span className="text-slate-400">Leo</span>
+            <span className="text-slate-300">Leo</span>
           </BreadcrumbItem>
         </Breadcrumb>
         <h1>Leo</h1>

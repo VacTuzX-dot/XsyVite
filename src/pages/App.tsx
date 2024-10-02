@@ -61,7 +61,7 @@ const Home: React.FC = () => {
       <div className="min-h-screen">
         <Breadcrumb aria-label="Default breadcrumb">
           <BreadcrumbItem className="ml-2">
-            <span className="text-slate-400">
+            <span className="text-slate-300">
               Home
             </span>
           </BreadcrumbItem>
