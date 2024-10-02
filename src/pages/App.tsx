@@ -1,6 +1,6 @@
 // Import CSS
 import "../style/index.css";
-// Import other page
+// Import other pages
 import About from "./about";
 import About_Leo from "./about_leo";
 import About_Nice from "./about_nice";
@@ -12,6 +12,8 @@ import {
   NavbarCollapse,
   NavbarToggle,
   NavbarBrand,
+  Breadcrumb,
+  BreadcrumbItem,
 } from "flowbite-react";
 
 function App() {
@@ -57,6 +59,13 @@ const Home: React.FC = () => {
   return (
     <>
       <div className="min-h-screen">
+        <Breadcrumb aria-label="Default breadcrumb">
+          <BreadcrumbItem className="ml-2">
+            <span className="text-slate-400">
+              Home
+            </span>
+          </BreadcrumbItem>
+        </Breadcrumb>
         <h2>Welcome to the Home Page</h2>
       </div>
     </>
