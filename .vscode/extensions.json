@@ -3,6 +3,7 @@
     "bradlc.vscode-tailwindcss",
     "esbenp.prettier-vscode",
     "ms-vscode.vscode-typescript-next",
-    "zignd.html-css-class-completion"
+    "zignd.html-css-class-completion",
+    "antfu.vite"
   ]
 }
