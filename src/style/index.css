@@ -12,7 +12,11 @@
   /* background-color: #242424; */
   /* background-image: linear-gradient(to bottom right, black, gray); */
   /* background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%); */
-  background: radial-gradient(circle at 10% 20%, rgb(87, 108, 117) 0%, rgb(37, 50, 55) 100.2%);
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(87, 108, 117) 0%,
+    rgb(37, 50, 55) 100.2%
+  );
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
@@ -38,4 +42,22 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #414141;
+}
+
+.leo_avatar {
+  background-image: url(https://avatar.iran.liara.run/public/41);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 16px;
+}
+
+.nice_avatar {
+  background-image: url(https://avatar.iran.liara.run/public/17);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 16px;
 }
