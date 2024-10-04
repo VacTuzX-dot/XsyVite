@@ -61,3 +61,14 @@
   height: 200px;
   border-radius: 16px;
 }
+
+.text-gradient-main {
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(64, 141, 242, 1) 0%,
+    rgba(68, 68, 172, 1) 50%,
+    rgba(5, 86, 102, 1) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -13,7 +13,7 @@ const About_Nice: React.FC = () => {
       <div className="min-h-screen">
         <Breadcrumb
           aria-label="Default breadcrumb"
-          className="m-2 rounded-3xl bg-slate-600 px-3 py-2"
+          className="m-2 rounded-3xl bg-slate-600 px-3 py-2 drop-shadow-md"
         >
           <BreadcrumbItem className="ml-1">
             <Link
