@@ -17,7 +17,6 @@ import {
   Card,
 } from "flowbite-react";
 import { Toast } from "flowbite-react";
-import { HiFire } from "react-icons/hi";
 
 function App() {
   return (
@@ -25,7 +24,7 @@ function App() {
       {/* Add navigation links */}
       <Navbar fluid rounded className="bg-slate-400 bg-opacity-15">
         <NavbarBrand>
-          <span className="self-center whitespace-nowrap text-xl font-bold drop-shadow-md">
+          <span className="text-gradient-main self-center whitespace-nowrap text-xl font-bold drop-shadow-md">
             Xsylab
           </span>
         </NavbarBrand>
@@ -61,11 +60,10 @@ function App() {
 const Home: React.FC = () => {
   return (
     <>
-      {" "}
       <div className="min-h-screen">
         <Breadcrumb
           aria-label="Default breadcrumb"
-          className="m-2 rounded-3xl bg-slate-600 px-3 py-2"
+          className="m-2 rounded-3xl bg-slate-600 px-3 py-2 drop-shadow-md"
         >
           <BreadcrumbItem className="ml-1">
             <span className="text-slate-300">Home</span>
@@ -88,7 +86,7 @@ const Home: React.FC = () => {
             >
               Learn More About Us
             </Link>
-          </div>{" "}
+          </div>
           <div className="flex flex-row items-center justify-center gap-5">
             <Card className="max-w-sm drop-shadow-lg">
               <h5 className="text-2xl font-bold tracking-tight text-gray-900">

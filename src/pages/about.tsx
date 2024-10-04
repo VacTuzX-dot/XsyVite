@@ -14,7 +14,7 @@ const About: React.FC = () => {
       <div className="min-h-screen">
         <Breadcrumb
           aria-label="Default breadcrumb"
-          className="m-2 rounded-3xl bg-slate-600 px-3 py-2"
+          className="m-2 rounded-3xl bg-slate-600 px-3 py-2 drop-shadow-md"
         >
           <BreadcrumbItem className="ml-1">
             <Link
@@ -36,10 +36,10 @@ const About: React.FC = () => {
             <p className="text-xl text-black drop-shadow-md">Test</p>
             <div className="my-5 flex flex-wrap justify-center gap-10">
               <Link to="/about/leo">
-                <div className="leo_avatar"></div>
+                <div className="leo_avatar drop-shadow-xl"></div>
               </Link>
               <Link to="/about/nice">
-                <div className="nice_avatar"></div>
+                <div className="nice_avatar drop-shadow-xl"></div>
               </Link>
             </div>
           </div>
