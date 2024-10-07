@@ -35,7 +35,11 @@ const About_Nice: React.FC = () => {
             <span className="text-slate-300">Nice</span>
           </BreadcrumbItem>
         </Breadcrumb>
-        <h1>Nice</h1>
+
+        {/* Content */}
+        <div className="mx-6 mt-5 rounded-xl bg-slate-400 bg-opacity-40 pb-7 pt-8 text-center drop-shadow-xl">
+          <h1 className="text-2xl drop-shadow-md">About Me!</h1>
+        </div>
       </div>
 
       <Routes>
