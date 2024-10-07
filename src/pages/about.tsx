@@ -29,7 +29,7 @@ const About: React.FC = () => {
           </BreadcrumbItem>
         </Breadcrumb>
 
-        {/* content */}
+        {/* Content */}
         <div>
           <div className="mx-5 my-3 rounded-xl bg-slate-300 bg-opacity-50 py-5 text-center drop-shadow-lg">
             <p className="text-2xl text-black drop-shadow-md">About</p>
