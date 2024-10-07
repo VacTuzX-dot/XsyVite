@@ -85,7 +85,7 @@ const Home: React.FC = () => {
             <p className="my-44 max-w-lg text-center text-xl font-bold text-yellow-400 drop-shadow-lg">
               This webiste is currently working on.
               <a
-                href="https://www.github.com/VacTuz/XsyLab"
+                href="https://github.com/VacTuzX-dot/XsyVite"
                 target="_blank"
                 rel="noreferrer"
                 className="text-slate-300 underline transition-colors hover:text-sky-300 hover:transition-colors"
