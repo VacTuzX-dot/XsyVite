@@ -35,7 +35,10 @@ const About_Leo: React.FC = () => {
             <span className="text-slate-300">Leo</span>
           </BreadcrumbItem>
         </Breadcrumb>
+
+        {/* Content */}
         <h1>Leo</h1>
+        
       </div>
 
       <Routes>

@@ -15,8 +15,8 @@ import {
   Breadcrumb,
   BreadcrumbItem,
   Card,
+  Toast,
 } from "flowbite-react";
-import { Toast } from "flowbite-react";
 
 function App() {
   return (
@@ -69,24 +69,40 @@ const Home: React.FC = () => {
             <span className="text-slate-300">Home</span>
           </BreadcrumbItem>
         </Breadcrumb>
-        <div className="w-100 h-100 mt-10 flex flex-col items-center justify-center">
-          {/* Hero Section */}
+
+        {/* Content */}
+        <div className="w-100 h-100 mb-20 flex flex-col items-center justify-center">
           <div className="flex flex-col items-center">
+            <div className="my-20">Logo will be here</div>
             <h1 className="text-5xl font-bold text-slate-400 drop-shadow-md">
               Welcome to Xsylab Team!
             </h1>
-            <p className="mt-5 max-w-lg text-center text-xl text-slate-200">
+            {/* <p className="mt-5 max-w-lg text-center text-xl text-slate-200">
               We are a freelance team specializing in web development, design,
               and creative solutions. Our team consists of passionate
               professionals dedicated to delivering high-quality projects.
+            </p> */}
+            <p className="my-44 max-w-lg text-center text-xl font-bold text-yellow-400 drop-shadow-lg">
+              This webiste is currently working on.
+              <a
+                href="https://github.com/VacTuzX-dot/XsyVite"
+                target="_blank"
+                rel="noreferrer"
+                className="text-slate-300 underline transition-colors hover:text-sky-300 hover:transition-colors"
+              >
+                <p className="mt-2 cursor-pointer">
+                  Click here to open source code of this website
+                </p>
+              </a>
             </p>
             <Link
               to="/about"
-              className="mb-10 mt-6 inline-block rounded-full bg-blue-500 px-4 py-2 text-white hover:bg-blue-400"
+              className="mb-10 mt-6 inline-block rounded-full bg-blue-500 px-4 py-2 text-white drop-shadow-lg transition-colors hover:bg-blue-400 hover:transition-colors"
             >
               Learn More About Us
             </Link>
           </div>
+
           <div className="flex flex-row items-center justify-center gap-5">
             <Card className="max-w-sm drop-shadow-lg">
               <h5 className="text-2xl font-bold tracking-tight text-gray-900">
@@ -97,6 +113,7 @@ const Home: React.FC = () => {
                 so far, in reverse chronological order.
               </p>
             </Card>
+
             <Toast className="bg-gray-500 bg-opacity-20">
               <div className="ml-2 text-base font-normal text-slate-100">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
