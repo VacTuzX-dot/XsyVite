@@ -37,7 +37,7 @@ const About_Nice: React.FC = () => {
         </Breadcrumb>
 
         {/* Content */}
-        <div className="mx-6 mt-5 rounded-xl bg-slate-400 bg-opacity-40 pb-7 pt-8 text-center drop-shadow-xl">
+        <div className="animate__animated animate__fadeInDown animate__faster mx-6 mt-5 rounded-xl bg-slate-400 bg-opacity-40 pb-7 pt-8 text-center drop-shadow-xl">
           <h1 className="text-2xl drop-shadow-md">About Me!</h1>
         </div>
       </div>
