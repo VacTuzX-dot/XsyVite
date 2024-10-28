@@ -49,7 +49,7 @@ const About_Nice: React.FC = () => {
               variant="fullWidth"
               className="dark"
             >
-              <Tabs.Item active title="Profile">
+              <Tabs.Item active title="About">
                 This is{" "}
                 <span className="font-medium text-gray-800">
                   Profile tabs associated content
@@ -58,19 +58,10 @@ const About_Nice: React.FC = () => {
                 for the next. The tab JavaScript swaps classes to control the
                 content visibility and styling.
               </Tabs.Item>
-              <Tabs.Item title="Dashboard">
+              <Tabs.Item title="FAQ">
                 This is{" "}
                 <span className="font-medium text-gray-800">
                   Dashboard tabs associated content
-                </span>
-                . Clicking another tab will toggle the visibility of this one
-                for the next. The tab JavaScript swaps classes to control the
-                content visibility and styling.
-              </Tabs.Item>
-              <Tabs.Item title="Settings">
-                This is{" "}
-                <span className="font-medium text-gray-800">
-                  Settings tabs associated content
                 </span>
                 . Clicking another tab will toggle the visibility of this one
                 for the next. The tab JavaScript swaps classes to control the
@@ -85,8 +76,14 @@ const About_Nice: React.FC = () => {
                 for the next. The tab JavaScript swaps classes to control the
                 content visibility and styling.
               </Tabs.Item>
-              <Tabs.Item disabled title="Disabled">
-                Disabled content
+              <Tabs.Item title="Portfolio">
+                This is{" "}
+                <span className="font-medium text-gray-800">
+                  Contacts tabs associated content
+                </span>
+                . Clicking another tab will toggle the visibility of this one
+                for the next. The tab JavaScript swaps classes to control the
+                content visibility and styling.
               </Tabs.Item>
             </Tabs>
           </div>
