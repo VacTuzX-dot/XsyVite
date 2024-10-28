@@ -74,7 +74,7 @@ const Home: React.FC = () => {
         <div className="w-100 h-100 mb-20 flex flex-col items-center justify-center">
           <div className="flex flex-col items-center">
             <div className="my-20">Logo will be here</div>
-            <h1 className="text-5xl font-bold text-slate-400 drop-shadow-md">
+            <h1 className="text-5xl font-bold text-slate-400 drop-shadow-md text-center">
               Welcome to Xsylab Team!
             </h1>
             {/* <p className="mt-5 max-w-lg text-center text-xl text-slate-200">

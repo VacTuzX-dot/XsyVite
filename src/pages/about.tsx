@@ -30,16 +30,18 @@ const About: React.FC = () => {
         </Breadcrumb>
 
         {/* Content */}
-        <div>
+        <div className="animate__animated animate__fadeInDown animate__faster">
           <div className="mx-5 my-3 rounded-xl bg-slate-300 bg-opacity-50 py-5 text-center drop-shadow-lg">
             <p className="text-2xl text-black drop-shadow-md">About</p>
             <p className="text-xl text-black drop-shadow-md">Test</p>
             <div className="my-5 flex flex-wrap justify-center gap-10">
               <Link to="/about/leo">
                 <div className="leo_avatar drop-shadow-xl"></div>
+                <p className="mt-5">Leo</p>
               </Link>
               <Link to="/about/nice">
                 <div className="nice_avatar drop-shadow-xl"></div>
+                <p className="mt-5">Nice</p>
               </Link>
             </div>
           </div>
