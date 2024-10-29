@@ -64,7 +64,7 @@ const About_Nice: React.FC = () => {
             <Avatar size="xl" alt="placeholder" />
             <p className="text-xl">Hello!</p>
           </div>
-          <div className="mx-36 mt-10 overflow-x-auto">
+          <div className="mobile:mx-3 mx-36 mt-10 overflow-x-auto">
             <Tabs
               aria-label="Full width tabs"
               variant="fullWidth"
@@ -89,7 +89,7 @@ const About_Nice: React.FC = () => {
                 content visibility and styling.
               </Tabs.Item>
               <Tabs.Item title="Contacts">
-                <div className="mx-20 mt-10 flex flex-wrap justify-center gap-20 text-xl">
+                <div className="mx-20 mt-10 flex flex-wrap justify-center gap-20 text-center text-xl">
                   <Link to="" className="my-5 flex gap-3">
                     <FaFacebook className="h-7 w-5" />
                     Facebook
@@ -100,11 +100,12 @@ const About_Nice: React.FC = () => {
                   </Link>
                   <Link to="" className="my-5 flex gap-3">
                     <FaYoutube className="h-7 w-5" />
-                    Youtube (Gaming)
+                    Youtube <span className="cursor-pointer">(Gaming)</span>
                   </Link>
                   <Link to="" className="my-5 flex gap-3">
                     <FaYoutube className="h-7 w-5" />
-                    Youtube (Animation , Art)
+                    Youtube{" "}
+                    <span className="cursor-pointer">(Animation, Art)</span>
                   </Link>
                   <Link
                     to="https://github.com/Gamemine098"
