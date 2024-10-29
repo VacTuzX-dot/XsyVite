@@ -11,6 +11,10 @@ export default {
     },
   },
   theme: {
+    screens: {
+      mobile: "390px",
+      desktop: "1280px",
+    },
     extend: {
       colors: {
         customYellow: "#F8E356",
