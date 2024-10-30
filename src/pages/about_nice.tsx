@@ -71,22 +71,10 @@ const About_Nice: React.FC = () => {
               className="dark"
             >
               <Tabs.Item active title="About">
-                This is{" "}
-                <span className="font-medium text-gray-800">
-                  Profile tabs associated content
-                </span>
-                . Clicking another tab will toggle the visibility of this one
-                for the next. The tab JavaScript swaps classes to control the
-                content visibility and styling.
+                Soon
               </Tabs.Item>
               <Tabs.Item title="FAQ">
-                This is{" "}
-                <span className="font-medium text-gray-800">
-                  Dashboard tabs associated content
-                </span>
-                . Clicking another tab will toggle the visibility of this one
-                for the next. The tab JavaScript swaps classes to control the
-                content visibility and styling.
+                Soon
               </Tabs.Item>
               <Tabs.Item title="Contacts">
                 <div className="mx-20 mt-10 flex flex-wrap justify-center gap-20 text-center text-xl">
@@ -169,13 +157,7 @@ const About_Nice: React.FC = () => {
                 </div>
               </Tabs.Item>
               <Tabs.Item title="Portfolio">
-                This is{" "}
-                <span className="font-medium text-gray-800">
-                  Contacts tabs associated content
-                </span>
-                . Clicking another tab will toggle the visibility of this one
-                for the next. The tab JavaScript swaps classes to control the
-                content visibility and styling.
+                Soon
               </Tabs.Item>
             </Tabs>
           </div>
