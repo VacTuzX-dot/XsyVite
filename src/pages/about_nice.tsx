@@ -73,26 +73,41 @@ const About_Nice: React.FC = () => {
               <Tabs.Item active title="About">
                 Soon
               </Tabs.Item>
-              <Tabs.Item title="FAQ">
-                Soon
-              </Tabs.Item>
+              <Tabs.Item title="FAQ">Soon</Tabs.Item>
               <Tabs.Item title="Contacts">
                 <div className="mx-20 mt-10 flex flex-wrap justify-center gap-20 text-center text-xl">
-                  <Link to="" className="my-5 flex gap-3">
+                  <Link
+                    to="https://www.facebook.com/Tanakorn51213"
+                    className="my-5 flex gap-3"
+                    target="_blank"
+                  >
                     <FaFacebook className="h-7 w-5" />
                     Facebook
                   </Link>
-                  <Link to="" className="my-5 flex gap-3">
+                  <Link
+                    to="https://www.instagram.com/gamemine098/"
+                    className="my-5 flex gap-3"
+                    target="_blank"
+                  >
                     <FaInstagram className="h-7 w-5" />
                     Instagram
                   </Link>
-                  <Link to="" className="my-5 flex gap-3">
+                  <Link
+                    to="https://www.youtube.com/@Gamemine098"
+                    className="my-5 flex gap-3"
+                    target="_blank"
+                  >
                     <FaYoutube className="h-7 w-5" />
-                    Youtube <span className="cursor-pointer">(Gaming)</span>
+                    Youtube
+                    <span className="cursor-pointer">(Gaming)</span>
                   </Link>
-                  <Link to="" className="my-5 flex gap-3">
+                  <Link
+                    to="https://www.youtube.com/@NiceLyneTH"
+                    className="my-5 flex gap-3"
+                    target="_blank"
+                  >
                     <FaYoutube className="h-7 w-5" />
-                    Youtube{" "}
+                    Youtube
                     <span className="cursor-pointer">(Animation, Art)</span>
                   </Link>
                   <Link
@@ -103,7 +118,11 @@ const About_Nice: React.FC = () => {
                     <FaGithub className="h-7 w-5" />
                     Github
                   </Link>
-                  <Link to="" className="my-5 flex gap-3">
+                  <Link
+                    to="https://bsky.app/profile/nicelyne.bsky.social"
+                    className="my-5 flex gap-3"
+                    target="_blank"
+                  >
                     <FaBluesky className="h-7 w-5" />
                     Bluesky
                   </Link>
@@ -114,7 +133,11 @@ const About_Nice: React.FC = () => {
                     <FaDiscord className="h-7 w-5" />
                     Discord
                   </a>
-                  <Link to="" className="my-5 flex gap-3">
+                  <Link
+                    to="https://www.twitch.tv/gamemine098"
+                    className="my-5 flex gap-3"
+                    target="_blank"
+                  >
                     <FaTwitch className="h-7 w-5" />
                     Twitch
                   </Link>
@@ -156,9 +179,7 @@ const About_Nice: React.FC = () => {
                   </Modal>
                 </div>
               </Tabs.Item>
-              <Tabs.Item title="Portfolio">
-                Soon
-              </Tabs.Item>
+              <Tabs.Item title="Portfolio">Soon</Tabs.Item>
             </Tabs>
           </div>
         </div>
