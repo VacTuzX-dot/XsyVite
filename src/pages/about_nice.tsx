@@ -7,6 +7,7 @@ import About from "./about";
 // Import other things that require
 import React from "react";
 import { useState } from "react";
+import { Link, Route, Routes } from "react-router-dom";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -15,7 +16,6 @@ import {
   Modal,
   Button,
 } from "flowbite-react";
-import { Link, Route, Routes } from "react-router-dom";
 import {
   FaFacebook,
   FaInstagram,
@@ -64,47 +64,50 @@ const About_Nice: React.FC = () => {
             <Avatar size="xl" alt="placeholder" />
             <p className="text-xl">Hello!</p>
           </div>
-          <div className="mobile:mx-3 mx-36 mt-10 overflow-x-auto">
+          <div className="mx-36 mt-10 overflow-x-auto mobile:mx-3">
             <Tabs
               aria-label="Full width tabs"
               variant="fullWidth"
               className="dark"
             >
               <Tabs.Item active title="About">
-                This is{" "}
-                <span className="font-medium text-gray-800">
-                  Profile tabs associated content
-                </span>
-                . Clicking another tab will toggle the visibility of this one
-                for the next. The tab JavaScript swaps classes to control the
-                content visibility and styling.
+                Soon
               </Tabs.Item>
-              <Tabs.Item title="FAQ">
-                This is{" "}
-                <span className="font-medium text-gray-800">
-                  Dashboard tabs associated content
-                </span>
-                . Clicking another tab will toggle the visibility of this one
-                for the next. The tab JavaScript swaps classes to control the
-                content visibility and styling.
-              </Tabs.Item>
+              <Tabs.Item title="FAQ">Soon</Tabs.Item>
               <Tabs.Item title="Contacts">
                 <div className="mx-20 mt-10 flex flex-wrap justify-center gap-20 text-center text-xl">
-                  <Link to="" className="my-5 flex gap-3">
+                  <Link
+                    to="https://www.facebook.com/Tanakorn51213"
+                    className="my-5 flex gap-3"
+                    target="_blank"
+                  >
                     <FaFacebook className="h-7 w-5" />
                     Facebook
                   </Link>
-                  <Link to="" className="my-5 flex gap-3">
+                  <Link
+                    to="https://www.instagram.com/gamemine098/"
+                    className="my-5 flex gap-3"
+                    target="_blank"
+                  >
                     <FaInstagram className="h-7 w-5" />
                     Instagram
                   </Link>
-                  <Link to="" className="my-5 flex gap-3">
+                  <Link
+                    to="https://www.youtube.com/@Gamemine098"
+                    className="my-5 flex gap-3"
+                    target="_blank"
+                  >
                     <FaYoutube className="h-7 w-5" />
-                    Youtube <span className="cursor-pointer">(Gaming)</span>
+                    Youtube
+                    <span className="cursor-pointer">(Gaming)</span>
                   </Link>
-                  <Link to="" className="my-5 flex gap-3">
+                  <Link
+                    to="https://www.youtube.com/@NiceLyneTH"
+                    className="my-5 flex gap-3"
+                    target="_blank"
+                  >
                     <FaYoutube className="h-7 w-5" />
-                    Youtube{" "}
+                    Youtube
                     <span className="cursor-pointer">(Animation, Art)</span>
                   </Link>
                   <Link
@@ -115,7 +118,11 @@ const About_Nice: React.FC = () => {
                     <FaGithub className="h-7 w-5" />
                     Github
                   </Link>
-                  <Link to="" className="my-5 flex gap-3">
+                  <Link
+                    to="https://bsky.app/profile/nicelyne.bsky.social"
+                    className="my-5 flex gap-3"
+                    target="_blank"
+                  >
                     <FaBluesky className="h-7 w-5" />
                     Bluesky
                   </Link>
@@ -126,7 +133,11 @@ const About_Nice: React.FC = () => {
                     <FaDiscord className="h-7 w-5" />
                     Discord
                   </a>
-                  <Link to="" className="my-5 flex gap-3">
+                  <Link
+                    to="https://www.twitch.tv/gamemine098"
+                    className="my-5 flex gap-3"
+                    target="_blank"
+                  >
                     <FaTwitch className="h-7 w-5" />
                     Twitch
                   </Link>
@@ -168,15 +179,7 @@ const About_Nice: React.FC = () => {
                   </Modal>
                 </div>
               </Tabs.Item>
-              <Tabs.Item title="Portfolio">
-                This is{" "}
-                <span className="font-medium text-gray-800">
-                  Contacts tabs associated content
-                </span>
-                . Clicking another tab will toggle the visibility of this one
-                for the next. The tab JavaScript swaps classes to control the
-                content visibility and styling.
-              </Tabs.Item>
+              <Tabs.Item title="Portfolio">Soon</Tabs.Item>
             </Tabs>
           </div>
         </div>
