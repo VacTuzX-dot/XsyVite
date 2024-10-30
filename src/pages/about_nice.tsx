@@ -7,6 +7,7 @@ import About from "./about";
 // Import other things that require
 import React from "react";
 import { useState } from "react";
+import { Link, Route, Routes } from "react-router-dom";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -15,7 +16,6 @@ import {
   Modal,
   Button,
 } from "flowbite-react";
-import { Link, Route, Routes } from "react-router-dom";
 import {
   FaFacebook,
   FaInstagram,
@@ -64,7 +64,7 @@ const About_Nice: React.FC = () => {
             <Avatar size="xl" alt="placeholder" />
             <p className="text-xl">Hello!</p>
           </div>
-          <div className="mobile:mx-3 mx-36 mt-10 overflow-x-auto">
+          <div className="mx-36 mt-10 overflow-x-auto mobile:mx-3">
             <Tabs
               aria-label="Full width tabs"
               variant="fullWidth"
