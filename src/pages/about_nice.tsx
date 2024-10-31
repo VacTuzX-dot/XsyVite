@@ -15,6 +15,7 @@ import {
   Tabs,
   Modal,
   Button,
+  Accordion,
 } from "flowbite-react";
 import {
   FaFacebook,
@@ -58,7 +59,7 @@ const About_Nice: React.FC = () => {
         </Breadcrumb>
 
         {/* Content */}
-        <div className="animate__animated animate__fadeInDown animate__faster mx-6 mt-5 rounded-xl bg-slate-400 bg-opacity-40 pb-32 pt-16 text-center drop-shadow-xl">
+        <div className="animate__animated animate__fadeInDown animate__faster mx-6 mt-5 rounded-xl bg-gray-800 bg-opacity-75 pb-32 pt-16 text-center drop-shadow-xl">
           <h1 className="pb-9 text-2xl drop-shadow-md">About Me!</h1>
           <div className="flex flex-wrap items-center justify-center gap-5">
             <Avatar size="xl" alt="placeholder" />
@@ -73,7 +74,36 @@ const About_Nice: React.FC = () => {
               <Tabs.Item active title="About">
                 Soon
               </Tabs.Item>
-              <Tabs.Item title="FAQ">Soon</Tabs.Item>
+
+              <Tabs.Item title="FAQ">
+                <Accordion collapseAll>
+                  <Accordion.Panel>
+                    <Accordion.Title>Soon</Accordion.Title>
+                    <Accordion.Content>
+                      <p className="mb-2 text-gray-500 dark:text-gray-400">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Asperiores pariatur qui voluptatum repudiandae
+                        neque accusantium obcaecati dolorem facere, soluta rerum
+                        aperiam ad excepturi repellendus blanditiis illo ullam
+                        corporis laboriosam libero!
+                      </p>
+                    </Accordion.Content>
+                  </Accordion.Panel>
+                  <Accordion.Panel>
+                    <Accordion.Title>Soon</Accordion.Title>
+                    <Accordion.Content>
+                      <p className="mb-2 text-gray-500 dark:text-gray-400">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Deleniti alias, enim beatae officiis ullam libero
+                        non dolores dolorem blanditiis eos iste eaque totam
+                        veniam, laboriosam ipsa repudiandae eum voluptatem
+                        harum?
+                      </p>
+                    </Accordion.Content>
+                  </Accordion.Panel>
+                </Accordion>
+              </Tabs.Item>
+
               <Tabs.Item title="Contacts">
                 <div className="mx-20 mt-10 flex flex-wrap justify-center gap-20 text-center text-xl">
                   <Link
@@ -179,7 +209,8 @@ const About_Nice: React.FC = () => {
                   </Modal>
                 </div>
               </Tabs.Item>
-              <Tabs.Item title="Portfolio">Soon</Tabs.Item>
+
+              <Tabs.Item title="Portfolios">Soon</Tabs.Item>
             </Tabs>
           </div>
         </div>
