@@ -11,5 +11,8 @@
   },
   "files.associations": {
     "*.css": "tailwindcss"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
   }
 }
