@@ -13,7 +13,7 @@ export default {
   theme: {
     screens: {
       mobile: "390px",
-      desktop: "1280px",
+      desktop: "1120px",
     },
     extend: {
       colors: {
