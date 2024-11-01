@@ -17,6 +17,7 @@ import {
   Card,
   Toast,
 } from "flowbite-react";
+// Flowbite docs https://flowbite-react.com/docs/getting-started/introduction
 
 function App() {
   return (

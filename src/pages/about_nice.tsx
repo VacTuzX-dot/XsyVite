@@ -18,6 +18,7 @@ import {
   Flowbite,
 } from "flowbite-react";
 import type { CustomFlowbiteTheme } from "flowbite-react";
+// Flowbite docs https://flowbite-react.com/docs/getting-started/introduction
 import {
   FaFacebook,
   FaInstagram,
@@ -27,6 +28,8 @@ import {
   FaTwitch,
 } from "react-icons/fa";
 import { FaBluesky } from "react-icons/fa6";
+// Get icons from https://react-icons.github.io/react-icons/
+// If it didn't have icons you want, add your own icons to public folder and use .svg file format
 
 const customTheme: CustomFlowbiteTheme = {
   tabs: {
