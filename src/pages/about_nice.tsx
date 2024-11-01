@@ -41,7 +41,7 @@ const customTheme: CustomFlowbiteTheme = {
         pills:
           "flex-wrap space-x-2 text-sm font-medium text-gray-500 dark:text-gray-400",
         fullWidth:
-          "grid w-full grid-flow-col divide-x divide-gray-200 rounded-none text-sm font-medium shadow dark:divide-gray-700 dark:text-gray-400",
+          "grid w-full grid-flow-col divide-x divide-gray-200 text-sm font-medium dark:divide-gray-700 dark:text-gray-400 rounded-lg gap-2",
       },
       tabitem: {
         base: "flex items-center justify-center rounded-t-lg p-4 text-sm font-medium first:ml-0 focus:outline-none focus:ring-4 focus:ring-transparent disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500",
@@ -68,10 +68,10 @@ const customTheme: CustomFlowbiteTheme = {
             },
           },
           fullWidth: {
-            base: "ml-0 flex w-full rounded-none first:ml-0",
+            base: "ml-0 flex w-full rounded-lg first:ml-0",
             active: {
-              on: "active rounded-none bg-gray-100 p-4 text-gray-900 dark:bg-gray-700 dark:text-white",
-              off: "rounded-none bg-white hover:bg-gray-50 hover:text-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white",
+              on: "active rounded-lg bg-gray-100 p-4 text-gray-900 dark:bg-gray-700 dark:text-white",
+              off: "rounded-lg bg-white hover:bg-gray-50 hover:text-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white",
             },
           },
         },
@@ -115,7 +115,7 @@ const customTheme: CustomFlowbiteTheme = {
       },
       heading: "",
       open: {
-        off: "",
+        off: "dark:text-white",
         on: "bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white",
       },
     },
