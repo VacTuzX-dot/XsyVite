@@ -197,6 +197,18 @@ const About_Nice: React.FC = () => {
                         </p>
                       </Accordion.Content>
                     </Accordion.Panel>
+                    <Accordion.Panel>
+                      <Accordion.Title>Soon</Accordion.Title>
+                      <Accordion.Content>
+                        <p className="mb-2 text-gray-500 dark:text-gray-400">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit. Deleniti alias, enim beatae officiis ullam
+                          libero non dolores dolorem blanditiis eos iste eaque
+                          totam veniam, laboriosam ipsa repudiandae eum
+                          voluptatem harum?
+                        </p>
+                      </Accordion.Content>
+                    </Accordion.Panel>
                   </Accordion>
                 </Tabs.Item>
 
