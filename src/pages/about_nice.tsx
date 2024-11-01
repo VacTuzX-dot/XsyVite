@@ -10,7 +10,6 @@ import { useState } from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import {
   Breadcrumb,
-  BreadcrumbItem,
   Avatar,
   Tabs,
   Modal,
@@ -132,25 +131,25 @@ const About_Nice: React.FC = () => {
           aria-label="Default breadcrumb"
           className="m-2 rounded-3xl bg-slate-600 px-3 py-2 drop-shadow-md"
         >
-          <BreadcrumbItem className="ml-1">
+          <Breadcrumb.Item className="ml-1">
             <Link
               to="/"
               className="text-slate-400 transition-colors hover:text-white hover:transition-colors"
             >
               Home
             </Link>
-          </BreadcrumbItem>
-          <BreadcrumbItem>
+          </Breadcrumb.Item>
+          <Breadcrumb.Item>
             <Link
               to="/about"
               className="text-slate-400 transition-colors hover:text-white hover:transition-colors"
             >
               About
             </Link>
-          </BreadcrumbItem>
-          <BreadcrumbItem>
+          </Breadcrumb.Item>
+          <Breadcrumb.Item>
             <span className="text-slate-300">Nice</span>
-          </BreadcrumbItem>
+          </Breadcrumb.Item>
         </Breadcrumb>
 
         {/* Content */}
