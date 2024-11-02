@@ -1,3 +1,5 @@
+// Import CSS
+import "../style/index.css";
 // Import other pages
 import Home from "./home";
 import About from "./about";
