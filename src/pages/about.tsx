@@ -3,8 +3,8 @@ import "../style/index.css";
 // Import other pages
 import About_Leo from "./about_leo";
 import About_Nice from "./about_nice";
+import AppFooter from "./AppFooter";
 // Import other things that require
-import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import { Breadcrumb, BreadcrumbItem } from "flowbite-react";
 // Flowbite docs https://flowbite-react.com/docs/getting-started/introduction
@@ -12,7 +12,7 @@ import { Breadcrumb, BreadcrumbItem } from "flowbite-react";
 const About: React.FC = () => {
   return (
     <>
-      <div className="min-h-screen">
+      <div className="min-h-screen flex flex-col">
         <Breadcrumb
           aria-label="Default breadcrumb"
           className="m-2 rounded-3xl bg-slate-600 px-3 py-2 drop-shadow-md"
@@ -31,7 +31,7 @@ const About: React.FC = () => {
         </Breadcrumb>
 
         {/* Content */}
-        <div className="animate__animated animate__fadeInDown animate__faster">
+        <div className="animate__animated animate__fadeInDown animate__faster flex-grow">
           <div className="mx-5 my-3 rounded-xl bg-slate-300 bg-opacity-50 py-5 text-center drop-shadow-lg">
             <p className="text-2xl text-black drop-shadow-md">About</p>
             <p className="text-xl text-black drop-shadow-md">Test</p>
@@ -47,6 +47,7 @@ const About: React.FC = () => {
             </div>
           </div>
         </div>
+        <AppFooter />
       </div>
 
       <Routes>

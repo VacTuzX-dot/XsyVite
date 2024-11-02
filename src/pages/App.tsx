@@ -4,8 +4,8 @@ import "../style/index.css";
 import About from "./about";
 import About_Leo from "./about_leo";
 import About_Nice from "./about_nice";
+import AppFooter from "./AppFooter";
 // Import other things that require
-import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import {
   Navbar,
@@ -45,7 +45,6 @@ function App() {
           </Link>
         </NavbarCollapse>
       </Navbar>
-
       {/* Define routes for different pages */}
       <Routes>
         <Route path="/" element={<Home />} />
@@ -105,7 +104,7 @@ const Home: React.FC = () => {
           </div>
 
           <div className="mobile:mx-5 desktop:flex desktop:flex-wrap desktop:justify-center desktop:gap-5">
-            <Card className="mobile:mb-5 max-w-sm drop-shadow-lg">
+            <Card className="max-w-sm drop-shadow-lg mobile:mb-5">
               <h5 className="text-2xl font-bold tracking-tight text-gray-900">
                 Noteworthy technology acquisitions 2021
               </h5>
@@ -125,6 +124,7 @@ const Home: React.FC = () => {
             </Toast>
           </div>
         </div>
+        <AppFooter />
       </div>
     </>
   );

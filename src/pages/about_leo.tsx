@@ -4,8 +4,8 @@
 import "../style/index.css";
 // Import other pages
 import About from "./about";
+import AppFooter from "./AppFooter";
 // Import other things that require
-import React from "react";
 import { useState } from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import {
@@ -128,7 +128,7 @@ const About_Leo: React.FC = () => {
 
   return (
     <>
-      <div className="min-h-screen">
+      <div className="flex min-h-screen flex-col">
         <Breadcrumb
           aria-label="Default breadcrumb"
           className="m-2 rounded-3xl bg-slate-600 px-3 py-2 drop-shadow-md"
@@ -155,7 +155,7 @@ const About_Leo: React.FC = () => {
         </Breadcrumb>
 
         {/* Content */}
-        <div className="animate__animated animate__fadeInDown animate__faster mx-6 mt-5 rounded-xl bg-gray-800 bg-opacity-75 pb-32 pt-16 text-center drop-shadow-xl">
+        <div className="animate__animated animate__fadeInDown animate__faster mx-6 mt-5 flex-grow rounded-xl bg-gray-800 bg-opacity-75 pb-32 pt-16 text-center drop-shadow-xl">
           <h1 className="pb-9 text-2xl drop-shadow-md">About Me!</h1>
           <div className="flex flex-wrap items-center justify-center gap-5">
             <Avatar size="xl" alt="placeholder" />
@@ -276,6 +276,7 @@ const About_Leo: React.FC = () => {
             </Flowbite>
           </div>
         </div>
+        <AppFooter />
       </div>
 
       <Routes>
