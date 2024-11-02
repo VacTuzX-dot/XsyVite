@@ -4,7 +4,7 @@ import "../style/index.css";
 import { Footer, FooterLinkGroup, FooterCopyright } from "flowbite-react";
 // Flowbite docs https://flowbite-react.com/docs/getting-started/introduction
 
-// To add footer use <AppFooter />
+// To add footer add "import AppFooter from "./AppFooter";" and use <AppFooter />
 function AppFooter(): JSX.Element {
   return (
     <Footer container className="mt-5 bg-gray-800 bg-opacity-75">
