@@ -15,6 +15,7 @@ import {
 } from "flowbite-react";
 // Flowbite docs https://flowbite-react.com/docs/getting-started/introduction
 
+// To add navbar use <AppNavbar />
 function AppNavbar(): JSX.Element {
   return (
     <>
