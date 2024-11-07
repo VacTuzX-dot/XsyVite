@@ -304,7 +304,7 @@ const About_Nice: React.FC = () => {
                         <div className="text-center">
                           <h3 className="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">
                             <span className="text-white">gamemine098</span> and{" "}
-                            <span className="text-white">nicelyne_th</span>
+                            <span className="text-white">nicelyneth</span>
                           </h3>
                           <div className="flex justify-center gap-4">
                             <Button
