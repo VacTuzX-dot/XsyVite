@@ -291,7 +291,7 @@ const About_Nice: React.FC = () => {
                         alt="Toyhouse Icon"
                         className="h-7 w-5"
                       />
-                      Toyhouse (Soon)
+                      Toyhouse
                     </Link>
 
                     {/* modal */}
