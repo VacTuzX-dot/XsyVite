@@ -156,7 +156,7 @@ const About_Nice: React.FC = () => {
         </Breadcrumb>
 
         {/* Content */}
-        <div className="animate__animated animate__fadeInDown animate__faster mx-6 mt-5 rounded-xl bg-gray-800 bg-opacity-75 pb-32 pt-16 text-center drop-shadow-xl flex-grow">
+        <div className="animate__animated animate__fadeInDown animate__faster mx-6 mt-5 flex-grow rounded-xl bg-gray-800 bg-opacity-75 pb-32 pt-16 text-center drop-shadow-xl">
           <h1 className="pb-9 text-2xl drop-shadow-md">About Me!</h1>
           <div className="flex flex-wrap items-center justify-center gap-5">
             <Avatar size="xl" alt="placeholder" />
@@ -281,7 +281,10 @@ const About_Nice: React.FC = () => {
                       <FaTwitch className="h-7 w-5" />
                       Twitch
                     </Link>
-                    <Link to="" className="my-5 flex gap-3">
+                    <Link
+                      to="https://toyhou.se/NiceLyne"
+                      className="my-5 flex gap-3"
+                    >
                       <img
                         loading="lazy"
                         src="/toyhouse.svg"
